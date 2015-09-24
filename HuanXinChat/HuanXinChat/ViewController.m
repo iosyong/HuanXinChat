@@ -30,6 +30,8 @@
 
     
     NSLog(@"123");
+    
+     NSLog(@"阿百川————————————————————————");
 }
 
 - (void)didReceiveMemoryWarning {
