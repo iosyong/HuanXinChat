@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn=[[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    btn.backgroundColor=[UIColor redColor];
+    [btn setTitle:nil forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    
+    NSLog(@"123");
 }
 
 - (void)didReceiveMemoryWarning {

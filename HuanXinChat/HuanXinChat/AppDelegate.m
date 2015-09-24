@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"王俊丽");
     // Override point for customization after application launch.
     
     NSLog(@"1223334566");
