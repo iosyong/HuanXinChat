@@ -22,6 +22,13 @@
     [btn setTitle:nil forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
+    UIButton *btn1=[[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 100)];
+    btn1.backgroundColor=[UIColor redColor];
+    [btn1 setTitle:nil forState:UIControlStateNormal];
+    [self.view addSubview:btn1];
+
+
+    
     NSLog(@"123");
 }
 
