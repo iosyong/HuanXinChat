@@ -32,6 +32,8 @@
     NSLog(@"123");
     
      NSLog(@"阿百川————————————————————————");
+    
+     NSLog(@"*********** 不予开 *******");
 }
 
 - (void)didReceiveMemoryWarning {
